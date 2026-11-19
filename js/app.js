@@ -528,7 +528,9 @@ function dayOne() {
           <strong>Ballif et Rosière</strong>
           <p>
             Ils étudient le cloisonnement des territoires
-            et les politiques concrètes de fermeture des frontières.
+            et les politiques concrètes de fermeture des frontières. Selon eux, les États ne se contentent pas de tracer des frontières sur une carte. Les États peuvent chercher à les rendre plus difficiles à franchir afin de contrôler les déplacements et de protéger leur territoire. Cette politique peut prendre plusieurs formes : Matérielles : construction de murs, de grillages, de clôtures et de barrières. Technologiques : caméras, capteurs, drones et systèmes de surveillance. Humaines et administratives : multiplication des contrôles policiers, militaires et douaniers, restrictions de visas et contrôles migratoires. L’objectif est de limiter ou de sélectionner les franchissements, en particulier ceux considérés par les autorités comme indésirables ou dangereux. 
+o	Plusieurs causes possibles : Sécuriser le territoire, face à des menaces réelles ou perçues. Contrôler les migrations, en limitant certaines entrées ou sorties. Lutter contre les trafics, notamment les trafics de marchandises illicites et de stupéfiants. Affirmer la souveraineté de l’État, en montrant sa capacité à contrôler son territoire. Matérialiser un rapport de force, notamment dans les situations de conflit ou de contestation territoriale (cf. politique de D. Trump).
+
           </p>
         </div>
 
@@ -536,7 +538,7 @@ function dayOne() {
           <strong>Michel Foucher</strong>
           <p>
             Il analyse le retour des frontières :
-            la mondialisation ne les a pas fait disparaître.
+            la mondialisation ne les a pas fait disparaître. Pour le géographe et géopolitologue Michel Foucher, le « retour des frontières » désigne la réaffirmation du rôle des frontières dans l’organisation du monde, dans les politiques des États et dans les représentations des populations. Dans son ouvrage Le retour des frontières, publié en 2016 chez CNRS Éditions, il souligne que les frontières n’ont jamais réellement disparu : elles sont simplement devenues moins visibles dans certains espaces, notamment en Europe, où la circulation a été facilitée par les accords de coopération. L'idée essentielle : la mondialisation n'entraîne pas la disparition des frontières. Au contraire, celles-ci restent indispensables pour délimiter les territoires, exercer la souveraineté et organiser les relations entre les États. Après la fin de la guerre froide, l’intensification des échanges et le développement de la mondialisation ont fait espérer un monde dans lequel les frontières auraient moins d’importance.
           </p>
         </div>
 

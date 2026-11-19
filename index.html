@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101c32">
+  <meta name="description" content="GÉO LAB : trois missions pour comprendre la barriérisation des frontières dans le monde.">
+  <title>GÉO LAB – Les frontières sous contrôle</title>
+
+  <!-- Feuille de style -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Carte interactive Leaflet -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    crossorigin=""
+  >
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    crossorigin=""
+    defer>
+  </script>
+
+  <!-- Application -->
+  <script src="js/app.js" defer></script>
+</head>
+
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <a class="logo" href="#" aria-label="Accueil Géo Lab">
+      GÉO <span>LAB</span>
+    </a>
+    <div class="header-tag">EXPLORER · COMPRENDRE · EXPLIQUER</div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ACCUEIL -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="eyebrow">MISSION GÉOGRAPHIQUE · PREMIÈRE</div>
+      <h1>Les frontières<br><span>sous contrôle.</span></h1>
+      <p>
+        Pourquoi les frontières se ferment-elles ?
+        Comment les États contrôlent-ils les déplacements ?
+        Explore les frontières du monde et découvre
+        les nouvelles formes de barriérisation.
+      </p>
+      <div class="hero-tags">
+        <span>3 missions</span>
+        <span>10 minutes par jour</span>
+        <span>100 % autonome</span>
+      </div>
+      <button class="btn btn-primary" id="startButton">
+        Commencer l'exploration →
+      </button>
+    </div>
+
+    <div class="hero-image">
+      <img src="images/hero-frontiere.jpg"
+           alt="Vue aérienne d'une frontière matérialisée par une barrière"
+           onerror="this.style.display='none'">
+      <div class="hero-image-overlay">
+        <span>OBSERVER LE MONDE</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+
+    <!-- PROGRESSION -->
+    <section class="progress-card">
+      <div class="progress-heading">
+        <div>
+          <div class="eyebrow">TON PARCOURS</div>
+          <h2>Ta progression</h2>
+        </div>
+        <div class="progress-count" id="progressCount">0 / 3</div>
+      </div>
+      <div class="progress-track">
+        <div class="progress-fill" id="progressFill"></div>
+      </div>
+      <p class="muted small" id="progressMessage">
+        Trois missions pour devenir un expert des frontières.
+      </p>
+    </section>
+
+    <!-- NAVIGATION -->
+    <nav class="day-navigation" aria-label="Les trois missions">
+
+      <button class="day-button active" data-day="0">
+        <span class="day-number">01</span>
+        <span class="day-title">Comprendre</span>
+        <span class="day-description">Notions et mécanismes</span>
+        <span class="day-status" id="status0">À découvrir</span>
+      </button>
+
+      <button class="day-button" data-day="1">
+        <span class="day-number">02</span>
+        <span class="day-title">Explorer</span>
+        <span class="day-description">Frontières du monde</span>
+        <span class="day-status" id="status1">À découvrir</span>
+      </button>
+
+      <button class="day-button" data-day="2">
+        <span class="day-number">03</span>
+        <span class="day-title">Expliquer</span>
+        <span class="day-description">Mobiliser ses connaissances</span>
+        <span class="day-status" id="status2">À découvrir</span>
+      </button>
+
+    </nav>
+
+    <!-- CONTENU DES MISSIONS -->
+    <section id="missionContent" aria-live="polite"></section>
+
+    <!-- BILAN -->
+    <section id="finalReport" class="hidden"></section>
+
+    <!-- INFORMATIONS -->
+    <section class="footer-note">
+      <div class="footer-symbol">◎</div>
+      <p>
+        GÉO LAB · Apprendre à lire les frontières du monde contemporain.
+        <br>
+        Ton travail est enregistré automatiquement sur ton appareil.
+      </p>
+      <button class="text-button" id="resetButton">
+        Réinitialiser mon parcours
+      </button>
+    </section>
+
+  </div>
+</main>
+
+</body>
+</html>
